@@ -204,7 +204,11 @@ body {
   ul {
 	list-style-type: none;
 	width: 100%;
-	margin: -5px -10px;
+	margin: -5px;
+  }
+
+  li {
+	width: 195px;
   }
 
   .base {
