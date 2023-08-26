@@ -197,6 +197,10 @@ body {
 	display: table;
   }
 
+  .row {
+	width: 100%;
+  }
+
   ul {
 	list-style-type: none;
 	width: 100%;
