@@ -19,7 +19,7 @@ body {
 .container_ic {
 	max-width: 390px;
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 3fr 1fr;
 	grid-template-rows: auto;
 	justify-content: center;
 	align-items: center;
@@ -74,17 +74,125 @@ body {
 
 
 .stat {
-	max-width: 190px;
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	grid-template-rows: auto;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
     margin: 10px 10px;
+	margin-top: -23px;
+	color: #fff;
+	font-family: 'Advent Pro';
+
 }
 
+.hp {
+	position: relative;
+	width: 320px;
+	height: 20px;
+	background: rgba(255, 0, 0, 0.412);
+	text-align: right;
+	border: 1px solid #babdc6;
+	border-radius: 10px;
+	padding: 1px;
+	margin: 10px 10px;
+	padding-right: 20px;
+  }
+  
+  .nhp {
+	position: absolute;
+	top: -100%;
+	left: 0;
+	width: 160px;
+	height: 20px;
+	background: rgb(255, 0, 0);
+	border: 1px solid #babdc6;
+	border-radius: 10px;
+	padding: 1px;
+	padding-right: 20px;
+	margin: 21px 0px;
+  }
+  
 
+.ic_bar {
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+}
 
+.mp {
+	width: 320px;
+	background: rgb(51, 0, 255);
+	text-align: right;
+	border: 1px solid #babdc6;;
+	border-radius: 10px;
+	padding: 1px;
+	margin: 10px 10px;
+	padding-right: 20px
+}
 
+.ex {
+	width: 320px;
+	background: rgba(128, 255, 0, 0.413);
+	text-align: right;
+	border: 1px solid #babdc6;;
+	border-radius: 10px;
+	padding: 1px;
+	margin: 10px 10px;
+	padding-right: 20px
+}
 
+.exp {
+	position: relative;
+	width: 320px;
+	height: 20px;
+	background: rgba(128, 255, 0, 0.413);
+	text-align: right;
+	border: 1px solid #babdc6;
+	border-radius: 10px;
+	padding: 1px;
+	margin: 10px 10px;
+	padding-right: 20px;
+  }
+  
+  .nexp {
+	position: absolute;
+	top: -100%;
+	left: 0;
+	width: 182px;
+	height: 20px;
+	background: rgb(128, 255, 0);
+	border: 1px solid #babdc6;
+	border-radius: 10px;
+	padding: 1px;
+	padding-right: 20px;
+	margin: 21px 0px;
+  }
+  
+  .knop {
+	background: #474b57;
+	border: 1px solid #babdc6;
+	border-radius: 10px;
+	padding: 1px;
+  }
 
+  .column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  ul {
+	list-style-type: none;
+  }
+
+  .base {
+	color: gold;
+	text-align: center;
+  }
