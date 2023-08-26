@@ -84,13 +84,13 @@ body {
 	margin-top: -23px;
 	color: #fff;
 	font-family: 'Advent Pro';
-
+	font-size: 14px;
 }
 
 .hp {
 	position: relative;
 	width: 320px;
-	height: 20px;
+	height: 15px;
 	background: rgba(255, 0, 0, 0.412);
 	text-align: right;
 	border: 1px solid #babdc6;
@@ -105,13 +105,13 @@ body {
 	top: -100%;
 	left: 0;
 	width: 160px;
-	height: 20px;
+	height: 15px;
 	background: rgb(255, 0, 0);
 	border: 1px solid #babdc6;
 	border-radius: 10px;
 	padding: 1px;
 	padding-right: 20px;
-	margin: 21px 0px;
+	margin: 16px 0px;
   }
   
 
@@ -124,6 +124,7 @@ body {
 
 .mp {
 	width: 320px;
+	height: 15px;
 	background: rgb(51, 0, 255);
 	text-align: right;
 	border: 1px solid #babdc6;;
@@ -135,6 +136,7 @@ body {
 
 .ex {
 	width: 320px;
+	height: 15px;
 	background: rgba(128, 255, 0, 0.413);
 	text-align: right;
 	border: 1px solid #babdc6;;
@@ -147,7 +149,7 @@ body {
 .exp {
 	position: relative;
 	width: 320px;
-	height: 20px;
+	height: 15px;
 	background: rgba(128, 255, 0, 0.413);
 	text-align: right;
 	border: 1px solid #babdc6;
@@ -162,13 +164,13 @@ body {
 	top: -100%;
 	left: 0;
 	width: 182px;
-	height: 20px;
+	height: 15px;
 	background: rgb(128, 255, 0);
 	border: 1px solid #babdc6;
 	border-radius: 10px;
 	padding: 1px;
 	padding-right: 20px;
-	margin: 21px 0px;
+	margin: 16px 0px;
   }
   
   .knop {
