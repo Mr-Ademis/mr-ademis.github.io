@@ -118,6 +118,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 10px 0;
+	vertical-align: middle;
 }
 
 .mp {
@@ -180,6 +181,8 @@ body {
 	float: left;
 	width: 33.33%;
 	padding: 10px;
+	color: #fff;
+	margin: -25px;
   }
 
   .row::after {
@@ -195,4 +198,5 @@ body {
   .base {
 	color: gold;
 	text-align: center;
+	margin: auto;
   }
