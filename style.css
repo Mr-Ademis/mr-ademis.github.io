@@ -27,6 +27,7 @@ body {
 	text-align: left;
 	color: #fff;
 	font-family: 'Advent Pro';
+	font-size: 16px;
 }
 
 .inner {
@@ -183,6 +184,8 @@ body {
 	padding: 10px;
 	color: #fff;
 	margin: -25px;
+	font-family: 'Advent Pro';
+	font-size: 14px;
   }
 
   .row::after {
@@ -199,4 +202,5 @@ body {
 	color: gold;
 	text-align: center;
 	margin: auto;
+	font-size: 16px;
   }
