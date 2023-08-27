@@ -3,7 +3,9 @@ body {
 	padding: 0;
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
-	background: #1d2028;
+	background-image: url("fon.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .container {
@@ -150,7 +152,7 @@ body {
 	position: relative;
 	width: 320px;
 	height: 15px;
-	background: rgba(128, 255, 0, 0.413);
+	background: rgba(192, 192, 192, 0.413);
 	text-align: right;
 	border: 1px solid #babdc6;
 	border-radius: 10px;
@@ -165,7 +167,7 @@ body {
 	left: 0;
 	width: 182px;
 	height: 15px;
-	background: rgb(128, 255, 0);
+	background: rgb(195, 195, 195);
 	border: 1px solid #babdc6;
 	border-radius: 10px;
 	padding: 1px;
@@ -214,8 +216,15 @@ body {
   }
 
   .base {
-	color: gold;
+	color: #fff;
 	text-align: center;
 	margin: auto;
 	font-size: 16px;
+	background-color: #474b57;
+
+  }
+
+  .name {
+	color: gold;
+	font-size: 18px;
   }
