@@ -3,233 +3,60 @@ body {
 	padding: 0;
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
-	background-image: url("fon.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: var(--tg-theme-bg-color);
 }
 
 .container {
 	max-width: 390px;
-	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
-	grid-template-rows: auto;
-	display: flex;
-	justify-content: center;
-    margin: 10px 0;
-}
-
-.container_ic {
-	max-width: 390px;
-	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
-	grid-template-rows: auto;
-	justify-content: center;
-	align-items: center;
-    margin: 10px 0;
-	text-align: left;
-	color: #fff;
-	font-family: 'Advent Pro';
-	font-size: 16px;
 }
 
 .inner {
 	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	margin: 20px 20px;
-
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px 200px;
 }
 
 .img {
-	width: 50px;
-	height: 50px;
-	opacity: 0.3;
-}
-
-.img_e {
-	width: 50px;
-	height: 50px;
-	border: 2px solid #babdc6;;
-	border-radius: 10px;
-	padding: 1px;
-}
-
-.img_as {
-	width: 208px;
-	height: 418px;
-	opacity: 0.5;
-}
-
-.ic_s {
-	margin: 10px 10px;
+	width: 150px;
 }
 
 .item {
-	width: 55px;
-	height: 55px;
 	text-align: center;
-	border: 1px solid #474b57;;
-	border-radius: 10px;
-	padding: 1px;
 }
 
-
-
-
-.stat {
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-	grid-template-rows: auto;
-	display: flex;
-	justify-content: left;
-    margin: 10px 10px;
-	margin-top: -23px;
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(248, 168, 24);
+	border-radius: 10px;
 	color: #fff;
-	font-family: 'Advent Pro';
-	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	transition: background .2s linear;
 }
 
-.hp {
-	position: relative;
-	width: 320px;
-	height: 15px;
-	background: rgba(255, 0, 0, 0.412);
-	text-align: right;
-	border: 1px solid #babdc6;
-	border-radius: 10px;
-	padding: 1px;
-	margin: 10px 10px;
-	padding-right: 20px;
-  }
-  
-  .nhp {
-	position: absolute;
-	top: -100%;
-	left: 0;
-	width: 160px;
-	height: 15px;
-	background: rgb(255, 0, 0);
-	border: 1px solid #babdc6;
-	border-radius: 10px;
-	padding: 1px;
-	padding-right: 20px;
-	margin: 16px 0px;
-  }
-  
-
-.ic_bar {
-	justify-content: center;
-	align-items: center;
-	margin: 10px 0;
-	vertical-align: middle;
+.btn:hover {
+	background: lightgreen;
 }
 
-.mp {
-	width: 320px;
-	height: 15px;
-	background: rgb(51, 0, 255);
-	text-align: right;
-	border: 1px solid #babdc6;;
-	border-radius: 10px;
-	padding: 1px;
-	margin: 10px 10px;
-	padding-right: 20px
-}
-
-.ex {
-	width: 320px;
-	height: 15px;
-	background: rgba(128, 255, 0, 0.413);
-	text-align: right;
-	border: 1px solid #babdc6;;
-	border-radius: 10px;
-	padding: 1px;
-	margin: 10px 10px;
-	padding-right: 20px
-}
-
-.exp {
-	position: relative;
-	width: 320px;
-	height: 15px;
-	background: rgba(192, 192, 192, 0.413);
-	text-align: right;
-	border: 1px solid #babdc6;
-	border-radius: 10px;
-	padding: 1px;
-	margin: 10px 10px;
-	padding-right: 20px;
-  }
-  
-  .nexp {
-	position: absolute;
-	top: -100%;
-	left: 0;
-	width: 182px;
-	height: 15px;
-	background: rgb(195, 195, 195);
-	border: 1px solid #babdc6;
-	border-radius: 10px;
-	padding: 1px;
-	padding-right: 20px;
-	margin: 16px 0px;
-  }
-  
-  .knop {
-	background: #474b57;
-	border: 1px solid #babdc6;
-	border-radius: 10px;
-	padding: 1px;
-  }
-
-  .column {
-	float: left;
-	width: 33.33%;
-	padding: 10px;
-	color: #fff;
-	margin: -25px;
-	font-family: 'Advent Pro';
-	font-size: 14px;
-	margin: -5px -5px;
-  }
-
-  .row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-
-  .row {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	width: 100%;
-  }
-
-  ul {
-	list-style-type: none;
-	width: 100%;
-	margin: -5px;
-  }
-
-  li {
-	width: 140px;
-  }
-
-  .base {
-	color: #fff;
+.usercard {
 	text-align: center;
-	margin: auto;
-	font-size: 16px;
-	background-color: #474b57;
-
-  }
-
-  .name {
-	color: gold;
-	font-size: 18px;
-  }
-
-
-  .usercard {
-	text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
