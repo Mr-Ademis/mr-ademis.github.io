@@ -22,7 +22,7 @@ body {
 	max-width: 390px;
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr;
-	grid-template-rows: auto;
+	grid-template-rows: center;
 	justify-content: center;
 	align-items: center;
     margin: 10px 0;
@@ -264,6 +264,7 @@ body {
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
+	margin: 10px;
   }
 
   .close:hover,
@@ -282,4 +283,9 @@ body {
 	background-image: url("w.png");
 	background-size: cover;
 	background-color: rgba(28,28,28,0)
+  }
+
+  .w_t {
+	color: #fff;
+	margin: auto;
   }
