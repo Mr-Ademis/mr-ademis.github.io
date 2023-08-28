@@ -227,23 +227,59 @@ body {
   .name {
 	color: gold;
 	font-size: 16px;
-	margin: -5%;
   }
 
-.usercard {
-	margin: -5%;
-}
 
 
 
 
 
+  .modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 360px;
+	height: 400px;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0);
+  }
 
+  .modal-content {
+	margin: 10%;
+	background-color: #2c2c2c;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	border: 2px solid #babdc6;;
+	border-radius: 10px;
+	padding: 1px;
 
+  }
 
+  .close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
 
+  .close:hover,
+  .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  }
 
-
-
-
-
+  .btn {
+	width: 59px;
+	height: 59px;
+	border: 2px solid #babdc6;;
+	border-radius: 10px;
+	padding: 1px;
+	background-image: url("w.png");
+	background-size: cover;
+	background-color: rgba(28,28,28,0)
+  }
